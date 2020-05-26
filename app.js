@@ -15,19 +15,6 @@ class Book {
 
 class UI {
     static displayBooks() {
-        // const StoredBooks = [
-        //     {
-        //         title : "Book One",
-        //         author : 'John Doe',
-        //         isbn : '409803'
-        //     },
-        //     {
-        //         title : 'Book Two',
-        //         author : 'Jane Doe',
-        //         isbn : '23090'
-        //     }
-        // ];
-
         const books = Store.getBooks();
         books.forEach((book) => UI.addBookToList(book));
     }
