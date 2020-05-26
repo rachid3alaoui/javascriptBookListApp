@@ -1,0 +1,33 @@
+.container {
+    width: 900px;
+}
+
+.alert {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+
+tr th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+form div label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+input[type="submit"] {
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+
+

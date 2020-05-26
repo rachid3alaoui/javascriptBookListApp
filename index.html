@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Javascript -->
+    <title>My Book List App</title>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h1 class="display-2 text-center"> <i class="fas fa-book text-primary"></i> My 
+            <span class="text-primary">Book</span>List
+        </h1>
+                <!-- The success message will be displayed right here -->
+        <form id="form-book">
+            <div class="form-group">
+                <label for="title">Title :</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="title"> Author : </label>
+                <input type="text" id="author" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="title">ISBN : </label>
+                <input type="text" id="isbn" class="form-control">
+            </div>
+            <input type="submit" value="Add Book" class="btn btn-primary btn-block">
+        </form>
+
+        <table class="table table-stripped mt-5">
+            <thead class="thead-light">
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th>Delete Book </th>
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div> 
+
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+<script src="app.js"></script>
+</html>
